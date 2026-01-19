@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
+  <!-- Bootstrap Icons (za footer) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    /* HERO */
+    .hero {
+      background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      color: white;
+      position: relative;
+    }
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    footer ul li {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 8px 0;
+    }
+
+    footer ul li:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Lorem ipsum</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Link 1</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Link 2</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Link 3</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="overlay"></div>
+  <div class="container hero-content">
+    <h1 class="display-4">This is Lorem ipsum</h1>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <a href="#" class="btn btn-outline-light btn-lg">Learn More</a>
+  </div>
+</header>
+
+<!-- FEATURES -->
+<section class="bg-success text-white py-5">
+  <div class="container text-center">
+    <h2 class="mb-3">Consectetur adipisicing elit</h2>
+    <p class="mb-5">Lorem ipsum dolor sit amet adipisicing elit.</p>
+
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <i class="fas fa-car fa-3x mb-3 border rounded-circle p-4"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <i class="far fa-clock fa-3x mb-3 border rounded-circle p-4"></i>
+        <p>Laudantium ullam consequatur repellat debitis maxime.</p>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <i class="fas fa-cog fa-3x mb-3 border rounded-circle p-4"></i>
+        <p>Atque eaque eveniet, nesciunt molestias.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GRID SECTION -->
+<section class="py-5 bg-light text-center">
+  <div class="container">
+    <h2 class="mb-3">Lorem ipsum dolor sit</h2>
+    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+    <div class="row mb-5">
+      <div class="col-md-6 mb-4">
+        <img src="https://picsum.photos/600/400?random=1" class="img-fluid rounded mb-3">
+        <h4>Voluptates, repudiandae</h4>
+        <hr class="w-50 mx-auto">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <img src="https://picsum.photos/600/400?random=2" class="img-fluid rounded mb-3">
+        <h4>Eveniet, reiciendis</h4>
+        <hr class="w-50 mx-auto">
+        <p>Rem nulla molestiae inventore.</p>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-md-6 mb-4">
+        <img src="https://picsum.photos/600/400?random=3" class="img-fluid rounded mb-3">
+        <h4>Lorem ipsum dolor</h4>
+        <hr class="w-50 mx-auto">
+        <p>Dolore ipsa voluptate quae quibusdam.</p>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <img src="https://picsum.photos/600/400?random=4" class="img-fluid rounded mb-3">
+        <h4>Esse, fugiat</h4>
+        <hr class="w-50 mx-auto">
+        <p>Natus perspiciatis fugit illum porro.</p>
+      </div>
+    </div>
+
+    <a href="#" class="btn btn-outline-secondary btn-lg">Learn More</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-light pt-5 pb-4">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4">
+        <h5>Lorem ipsum</h5>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light">Lorem ipsum dolor</a></li>
+          <li><a href="#" class="text-light">Quod adipisci</a></li>
+          <li><a href="#" class="text-light">Itaque eveniet</a></li>
+          <li><a href="#" class="text-light">Accusantium</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h5>Nostrum, repellat!</h5>
+        <p>Tenetur voluptate exercitationem.</p>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light">Lorem ipsum</a></li>
+          <li><a href="#" class="text-light">Inventore</a></li>
+          <li><a href="#" class="text-light">Deleniti</a></li>
+          <li><a href="#" class="text-light">Illum</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h5>Contact Us</h5>
+        <div class="mb-3">
+          <a href="#" class="text-light mr-3"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-light mr-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <p><strong>Address:</strong><br>1234 Somewhere Road<br>Serbia</p>
+        <p><strong>Mail:</strong> someone@untitled.com</p>
+        <p><strong>Phone:</strong> (000) 000-0000</p>
+      </div>
+
+    </div>
+
+    <hr class="bg-light">
+
+    <div class="text-center">
+      <small>© Lorem Ipsum. All rights reserved.</small>
+    </div>
+  </div>
+</footer>
+
+<!-- JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
