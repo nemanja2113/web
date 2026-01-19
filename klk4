@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kolokvijum Web Dizajn</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-light">
+<div class="container">
+<a class="navbar-brand" href="#">Lorem</a>
+
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#">Lorem 1</a></li>
+<li class="nav-item"><a class="nav-link" href="#">Lorem 2</a></li>
+<li class="nav-item"><a class="nav-link" href="#">Lorem 3</a></li>
+<li class="nav-item"><a class="nav-link" href="#">Lorem 4</a></li>
+</ul>
+</div>
+</nav>
+
+<!-- HERO -->
+<div class="hero text-center text-white">
+<h1>Lorem ipsum dolor sit amet!</h1>
+</div>
+
+<!-- MAIN SECTION -->
+<div class="section-yellow">
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-md-4 text-center">
+<img src="https://picsum.photos/400/250" class="img-fluid">
+</div>
+
+<div class="col-md-4 text-center">
+<h3>Lorem</h3>
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Quo impedit accusamus suscipit ad vitae laborum enim aperiam tenetur.
+Blanditiis dolorum dicta accusantium.
+</p>
+</div>
+
+<div class="col-md-4 text-center">
+<img src="https://picsum.photos/401/250" class="img-fluid">
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- TABLE + FORM -->
+<div class="section-green">
+<div class="container">
+
+<div class="row">
+
+<!-- TABLE -->
+<div class="col-md-6">
+
+<table class="table table-bordered text-center">
+<thead class="table-info">
+<tr>
+<th>Lorem</th>
+<th>Ipsum</th>
+<th>Sit</th>
+<th>Dolor</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td rowspan="2" class="bg-warning">rowspan</td>
+</tr>
+
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+
+<tr>
+<td>1</td>
+<td colspan="3" class="bg-secondary text-white">colspan</td>
+</tr>
+
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<!-- FORM -->
+<div class="col-md-6">
+
+<form>
+<label>First name</label>
+<input type="text" class="form-control mb-3">
+
+<label>Last name</label>
+<input type="text" class="form-control mb-3">
+
+<label>Email</label>
+<input type="email" class="form-control mb-3" placeholder="Enter email...">
+
+<button class="btn btn-light w-100">Send</button>
+</form>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- PAGINATION -->
+<div class="container my-4">
+<ul class="pagination">
+<li class="page-item active"><a class="page-link" href="#">Page1</a></li>
+<li class="page-item"><a class="page-link" href="#">Page2</a></li>
+</ul>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+<div class="container">
+<h3>Information</h3>
+<p>
+The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s.
+</p>
+</div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+CSS: 
+
+
+.hero{
+background:#2e86c1;
+padding:25px;
+font-family:monospace;
+}
+
+.section-yellow{
+background:#d4c85c;
+padding:40px 0;
+}
+
+.section-green{
+background:#9bb07b;
+padding:40px 0;
+}
+
+.footer{
+background:#111;
+color:white;
+padding:30px 0;
+}
